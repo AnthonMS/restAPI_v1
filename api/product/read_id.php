@@ -29,7 +29,7 @@ $testValue = isset($_GET['id']) ? $_GET['id'] : die();
 
 // read the details of the product
 //$product->newReadOne($testValue);
-$product->readOne();
+$product->readID();
 
 // create array
 $product_arr = array(
